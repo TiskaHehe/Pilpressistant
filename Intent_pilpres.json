@@ -1,0 +1,490 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai",
+        "halo",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam"
+      ],
+      "responses": [
+        "Hai! Teman PilPres di sini. Informasi apa yang ingin kamu ketahui?",
+        "Halo! Saya Teman PilPres, salam kenal ya! Ingin mengetahui tentang informasi Pemilu Presiden 2023, kan?",
+        "Selamat pagi! Teman PilPres di sini. Informasi apa yang ingin kamu ketahui?",
+        "Selamat siang! Teman PilPres di sini. Penasaran dengan informasi PilPres 2024?",
+        "Selamat sore! Teman PilPres di sini. Apa yang ingin kamu ketahui seputar PilPres 2024?",
+        "Selamat malam! Dengan Teman PilPres di sini. Apakah kamu ingin mengetahui informasi PilPres 2024?"
+      ],
+      "context_set":"informasi terkait greeting"
+    },
+    {
+      "tag": "goodbye",
+      "patterns":[
+        "Selamat tinggal",
+        "Sampai jumpa!"
+      ],
+      "responses":[
+        "Selamat tinggal. Senang bisa membantu!",
+        "Sampai jumpa lagi! Semoga harimu menyenangkan!"
+      ],
+      "context_set":"informasi terkait goodbye"
+    },
+    {
+      "tag": "terimakasih",
+      "patterns":[
+        "Terima kasih!",
+        "Terima kasih banyak!"
+      ],
+      "responses":[
+        "Dengan senang hati ^^"
+      ],
+      "context_set":"informasi terkait ucapan terimakasih"
+    },
+    {
+      "tag": "paslon_presiden_wapres",
+      "patterns":[
+        "Siapa pasangan Capres 2024?"
+      ],
+      "responses":[
+        "Berdasarkan Keputusan KPU Nomor 1644 tahun 2023 tentang Nomor Urut Pasangan Calon Peserta PilPres 2024; Nomor urut 1: Anies Baswedan-Muhaimin Iskandar (Cak Imin), Nomor urut 2: Prabowo Subianto-Gibran Rakabuming Raka, dan Nomor urut 3: Ganjar Pranowo-Mahfud Md"
+      ],
+      "context_set":"informasi terkait pasangan calon presiden dan wapres"
+    },
+    {
+      "tag": "jargon_paslon_anies_imin",
+      "patterns":[
+        "Apa jargon paslon Anies Baswedan-Muhaimin Iskandar?"
+      ],
+      "responses":[
+        "Indonesia Adil Makmur untuk Semua"
+      ],
+      "context_set":"informasi terkait jargon paslon anies-imin"
+    },
+    {
+      "tag": "visi_misi_anies_imin",
+      "patterns":[
+        "Apa visi misi Anies-Imin?"
+      ],
+      "responses":[
+        "Visi: Indonesia Adil Makmur untuk Semua, Misi: 8 Jalan Perubahan. 1. Memastikan ketersediaan kebutuhan pokok dan biaya hidup murah melalui kemandirian pangan, ketahanan energi, dan kedaulatan air; 2. Mengentaskan kemiskinan dengan memperluas kesempatan berusaha dan menciptakan lapangan kerja, mewujudkan upah berkeadilan, menjamin kemajuan ekonomi berbasis kemandirian dan pemerataan, serta mendukung korporasi Indonesia berhasil di negeri sendiri dan bertumbuh di kancah global; 3. Mewujudkan keadilan ekologis berkelanjutan untuk generasi mendatang; 4. Membangun Kota dan Desa berbasis kawasan yang manusiawi, berkeadilan dan saling memajukan; 5. Mewujudkan manusia Indonesia yang sehat, cerdas, produktif, berakhlak, serta berbudaya; 6. Mewujudkan keluarga Indonesia yang sejahtera dan bahagia sebagai akar kekuatan bangsa; 7. Memperkuat sistem pertahanan dan keamanan negara, serta meningkatkan peran dan kepemimpinan Indonesia dalam kancah politik global untuk mewujudkan kepentingan nasional dan perdamaian dunia; 8. Memulihkan kualitas demokrasi, menegakkan hukum dan HAM, memberantas korupsi tanpa tebang pilih, serta menyelenggarakan pemerintahan yang berpihak pada rakyat."
+      ]
+    },
+    {
+      "tag": "latar_belakang_anies",
+      "patterns":[
+        "Bagaimana latar belakang calon presiden Anies Baswedan?"
+      ],
+      "responses":[
+        "Anies Rasyid Baswedan lahir di Kuningan, Jawa Barat, pada tanggal 7 Mei 1969. Ia merupakan anak dari pasangan Rasyid Baswedan dan Aliyah Rasyid. Ayahnya adalah mantan dosen di Fakultas Ekonomi Universitas Islam Indonesia, sedangkan ibunya adalah guru besar di Fakultas Ilmu Sosial dan Ekonomi Universitas Negeri Yogyakarta. Anies menempuh pendidikan dasar dan menengah di Yogyakarta. Ia kemudian melanjutkan pendidikan tinggi di Fakultas Ekonomi Universitas Gajah Mada. Selama kuliah, Anies aktif berorganisasi dan pernah menjabat sebagai Ketua Senat Mahasiswa UGM tahun 1992. Setelah lulus dari UGM, Anies melanjutkan pendidikan magister di bidang perencanaan kota di Universitas Negeri New York, Amerika Serikat. Ia kemudian meraih gelar doktor dalam bidang ekonomi perkotaan di Universitas Harvard, Amerika Serikat. Setelah menyelesaikan pendidikannya, Anies bekerja sebagai dosen di Universitas Paramadina. Ia kemudian menjabat sebagai Rektor Universitas Paramadina dari tahun 2007 hingga 2013. Pada tahun 2014, Anies terpilih sebagai Menteri Pendidikan dan Kebudayaan dalam Kabinet Kerja pemerintahan Joko Widodo. Ia menjabat hingga tahun 2016. Pada tahun 2017, Anies terpilih sebagai Gubernur DKI Jakarta. Ia menjabat hingga tahun 2022. Anies merupakan sosok yang dikenal memiliki latar belakang pendidikan yang mumpuni. Ia juga memiliki pengalaman di bidang pemerintahan dan kepemimpinan. Hal ini menjadi salah satu faktor yang membuat Anies menjadi salah satu calon presiden yang diperhitungkan dalam pemilu 2024."
+      ]
+    },
+    {
+      "tag": "prestasi_anies",
+      "patterns":[
+        "Apa saja prestasi Calon Presiden Anies Baswedan?"
+      ],
+      "responses":[
+        "1. Integrasi Transportasi Publik, seperti melakukan sejumlah pembenahan, mulai dari mengubah sistem pembayaran yang terintegrasi melalui Jaklingko hingga penambahan 9 rute baru layanan TransJakarta ataupun layanan mikrotrans yang mencapai 1.724 unit. Tahun 2020, Anies juga mengklaim bahwa dalam masa kepemimpinannya, Jakarta telah berhasil mengurangi emisi gas rumah kaca hingga 26% di tahun 2020, yang kemudian naik menjadi 26.9% di tahun 2021; 2. JakPreneur: Pengembangan UMKM, program JakPreneur yang digagas masa pemerintahan Anies dengan memberikan pembinaan dan pendampingan bagi Usaha pelaku Mikro, Kecil, dan Menengah (UMKM) telah berhasil membantu lebih dari 300.000 UMKM di DKI Jakarta untuk mendapatkan wawasan luas tentang pengembangan usaha. Anggota terpilih juga dibantu fasilitas permodalan. Melalui program ini, Anies berharap dapat membuka lebih banyak lapangan kerja di semua sektor; 3. Formula E, Partisipasi DKI Jakarta sebagai tuan rumah balapan mobil listrik bergengsi Formula E diklaim telah diperhitungkan secara cermat dan memberikan dampak ekonomi sebesar Rp 2,6 triliun. Ajang mobil balap listrik ini diikuti oleh 11 tim dari 7-8 negara. Ketua pelaksana Ahmad Sahroni mengatakan bahwa Formula E Jakarta berjalan sukses dan dipadati penonton. Co-Founder Formula E, Alberto Longo menilai Formula E Jakarta 2022 akan menjadi balapan terbesar dan tersukses dalam sejarahnya."
+      ]
+    },
+    {
+      "tag": "latar_belakang_cak_imin",
+      "patterns":[
+        "Bagaimana latar belakang calon wakil  presiden Muhaimin Iskandar?"
+      ],
+      "responses":[
+        "Muhaimin Iskandar, yang lebih dikenal dengan nama Cak Imin, lahir di Jombang, Jawa Timur, pada tanggal 24 September 1966. Ia merupakan putra dari Muhammad Iskandar, seorang guru di Pesantren Mamba'ul Ma'arif, dan Muhasonah Iskandar, yang kemudian menjadi pemimpin pesantren tersebut. Muhaimin Iskandar memiliki latar belakang pendidikan yang cukup baik. Ia menempuh pendidikan Sekolah Dasar di Mamba'ul Ma'arif Denanyar Jombang, Sekolah Menengah Pertama di Madrasah Tsanawiyah Negeri Jombang, dan Sekolah Menengah Atas di Madrasah Aliyah Negeri I Yogyakarta. Setelah itu, ia melanjutkan pendidikannya di Fakultas Ilmu Sosial dan Ilmu Politik (FISIP) Universitas Gadjah Mada (UGM) dan lulus pada tahun 1991. Sejak duduk di bangku kuliah, Muhaimin Iskandar aktif di kegiatan politik dan sosial. Ia bergabung dengan Pergerakan Mahasiswa Islam Indonesia (PMII) dan menjadi Ketua Umum PMII Cabang Yogyakarta pada tahun 1989-1990. Muhaimin Iskandar mulai terjun ke dunia politik praktis pada tahun 1999, ketika ia terpilih sebagai anggota Dewan Perwakilan Rakyat (DPR) dari Partai Kebangkitan Bangsa (PKB). Ia kemudian terpilih kembali menjadi anggota DPR pada tahun 2004, 2009, 2014, dan 2019. Pada tahun 2004, Muhaimin Iskandar terpilih sebagai Ketua Umum PKB. Ia menjadi ketua umum termuda dalam sejarah PKB. Pada tahun 2019, Muhaimin Iskandar diangkat menjadi Menteri Ketenagakerjaan oleh Presiden Joko Widodo. Ia menjabat sebagai menteri hingga tahun 2024. Muhaimin Iskandar dikenal sebagai sosok yang aktif dan berpengalaman di dunia politik. Ia memiliki visi untuk menjadikan Indonesia sebagai negara yang maju, adil, dan makmur."
+      ]
+    },
+    {
+      "tag": "jargon_paslon_prabowo_gibran",
+      "patterns":[
+        "Apa jargon paslon Prabowo-Gibran?"
+      ],
+      "responses":[
+        "Bersama Indonesia Maju Menuju Indonesia Emas 2045"
+      ]
+    },
+    {
+      "tag": "visi_misi_prabowo_gibran",
+      "patterns":[
+        "Apa saja visi misi pasangan calon Prabowo-Gibran?"
+      ],
+      "responses":[
+        "Visi : Bersama Indonesia Maju Menuju Indonesia Emas 2045. Misi : Asta Cita. 1. Memperkokoh ideologi Pancasila, demokrasi, dan hak asasi manusia (HAM); 2. Memantapkan sistem pertahanan keamanan negara dan mendorong kemandirian bangsa melalui swasembada pangan, energi, air, ekonomi kreatif, ekonomi hijau, dan ekonomi biru; 3. Meningkatkan lapangan kerja yang berkualitas, mendorong kewirausahaan, mengembangkan industri kreatif, dan melanjutkan pengembangan infrastruktur; Memperkuat pembangunan sumber daya manusia (SDM), sains, teknologi, pendidikan, kesehatan, prestasi olahraga, kesetaraan gender, serta penguatan peran perempuan, pemuda, dan penyandang disabilitas; 5. Melanjutkan hilirisasi dan industrialisasi untuk meningkatkan nilai tambah di dalam negeri; 6. Membangun dari desa dan dari bawah untuk pemerataan ekonomi dan pemberantasan kemiskinan; 7. Memperkuat reformasi politik, hukum, dan birokrasi, serta memperkuat pencegahan dan pemberantasan korupsi dan narkoba; 8. Memperkuat penyelarasan kehidupan yang harmonis dengan lingkungan, alam, dan budaya, serta peningkatan toleransi antarumat beragama untuk mencapai masyarakat yang adil dan makmur."
+      ]
+    },
+    {
+      "tag": "latar_belakang_prabowo",
+      "patterns":[
+        "Bagaimana latar belakang calon presiden Prabowo Subianto?"
+      ],
+      "responses":[
+        "Prabowo Subianto lahir di Jakarta pada tanggal 17 Oktober 1951. Ia merupakan putra dari pasangan Ragowo Hediprasetyo Djojohadikusumo dan Dora Marie Sigar. Prabowo Subianto memiliki latar belakang pendidikan yang cukup baik. Ia menempuh pendidikan Sekolah Dasar di The Dean School, Singapore, Sekolah Menengah Pertama di Victoria Institute, Kuala Lumpur, Malaysia, dan Sekolah Menengah Atas di SMP Zurich International School, Swiss. Setelah itu, ia melanjutkan pendidikannya di Akademi Militer Nasional (AMN) Magelang dan lulus pada tahun 1974. Setelah lulus dari AMN, Prabowo Subianto meniti karier militer. Ia pernah menjabat sebagai Komandan Batalyon Infanteri Linud 330 Kostrad, Panglima Komando Pasukan Khusus (Kopassus), Komandan Jenderal Komando Pembinaan Doktrin, Pendidikan, dan Latihan Angkatan Darat (Kodiklat), dan Panglima Kostrad. Pada tahun 1998, Prabowo Subianto mengundurkan diri dari militer. Ia kemudian terjun ke dunia politik dan mendirikan Partai Gerakan Indonesia Raya (Gerindra). Prabowo Subianto pernah mencalonkan diri sebagai presiden pada pemilu presiden 2014 dan 2019. Ia kalah dalam kedua pemilu tersebut. Pada pemilu presiden 2024, Prabowo Subianto kembali mencalonkan diri sebagai presiden. Ia berpasangan dengan Sandiaga Uno. Prabowo Subianto dikenal sebagai sosok yang tegas, berintegritas, dan memiliki pengalaman yang luas di bidang militer. Ia juga dikenal sebagai sosok yang memiliki visi untuk menjadikan Indonesia sebagai negara yang kuat dan sejahtera."
+      ]
+    },
+    {
+      "tag": "prestasi_prabowo",
+      "patterns":[
+        "Apa saja prestasi Calon Presiden Prabowo Subianto?"
+      ],
+      "responses":[
+        "1. Modernisasi Alutsista Pertahanan RI. Kementerian Pertahanan di bawah kepemimpinan Prabowo telah membelanjakan lebih dari Rp500 triliun secara total untuk merevitalisasi Alat Utama Sistem Pertahanan (Alutsista) TNI. Berdasarkan APBN 2023, program modernisasi alutsista, non-alutsista, dan Sarpras Pertahanan dianggarkan sebesar Rp35,19t (Rp39,47 triliun untuk RAPBN 2024) dari total anggaran Kementerian Pertahanan sebesar Rp134.32t, di mana anggaran Kemenhan merupakan anggaran terbesar jika dibandingkan K/L lainnya. Terlebih dari itu, ada juga US $12,6 miliar dan Rp11,5 triliun dalam bentuk program Pinjaman Luar Negeri (PLN) dan Pinjaman Dalam Negeri (PDN). Ini termasuk pembelian senjata, kapal perang dan pesawat tempur baru dari Prancis, Qatar dan Amerika Serikat; 2. Industri Pertahanan “Made in Indonesia”. Prabowo mempromosikan industri pertahanan Indonesia ke berbagai negara sahabat di Asia dan Afrika, seperti Ghana dan Laos. Hal ini menjadi bagian dari terbentuknya Defense Industry Indonesia (Defend ID), suatu Holding BUMN Industri Pertahanan yang di antara lain ada PT Dirgantara Indonesia, PT Pindad dan PT PAL Indonesia. Prabowo gencar menjembatani nota kesepahaman antara perusahaan Indonesia dengan industri pertahanan lainya seperti Boeing demi meningkatkan kemampuan produksi dan riset dalam negeri; 3. Pengusaha Sukses Memberdayakan SDM dan Ekonomi. Prabowo menjadi calon presiden terkaya dengan harta Rp 2 Triliun yang dihasilkan dari berbagai perusahaan termasuk PT Tusam Hutani Lestari, PT Kertas Nusantara dan PT Belantara Pusaka, yang bergerak di bidang perkebunan, pertanian, pengelolaan kertas dan sebagainya. Terdapat klaim bahwa berbagai usaha ini memberdayakan ribuan sumber daya manusia dan lingkungan alam Indonesia untuk perputaran ekonomi. Hal ini membuatnya dapat menyumbang gaji dari jabatannya sebagai Menteri Pertahanan ke berbagai organisasi seperti pembangunan yayasan, rumah ibadah dan lainnya."
+      ]
+    },
+    {
+      "tag": "latar_belakang_gibran",
+      "patterns":[
+        "Bagaimana latar belakang Calon Wakil Presiden Gibran Rakabuming?"
+      ],
+      "responses":[
+        "Gibran Rakabuming Raka, lahir di Surakarta, Jawa Tengah, pada tanggal 1 Oktober 1987. Ia merupakan putra sulung dari Presiden Joko Widodo dan Iriana Joko Widodo. Gibran Rakabuming memiliki latar belakang pendidikan yang cukup baik. Ia menempuh pendidikan Sekolah Dasar di SDN 1 Sumber, SMPN 1 Sumber, dan SMA Negeri 1 Surakarta. Setelah itu, ia melanjutkan pendidikannya di Management Development Institute of Singapore (MDIS) dan lulus dengan gelar B.Sc (Hons) pada tahun 2007. Gibran Rakabuming memulai kariernya sebagai pengusaha kuliner. Ia mendirikan beberapa usaha kuliner, seperti Chili Pari, Markobar, dan Goola. Pada tahun 2020, Gibran Rakabuming terpilih sebagai Wali Kota Solo. Ia menjabat sebagai walikota hingga tahun 2023. Gibran Rakabuming dikenal sebagai sosok yang ramah dan merakyat. Ia juga dikenal sebagai sosok yang memiliki visi untuk menjadikan Solo sebagai kota yang maju dan sejahtera. Gibran Rakabuming merupakan sosok yang cukup populer di kalangan masyarakat. Ia memiliki potensi untuk menarik suara pemilih dari kalangan anak muda dan masyarakat menengah ke bawah."
+      ]
+    },
+    {
+      "tag": "jargon_paslon_ganjar_mahfud",
+      "patterns":[
+        "Apa jargon paslon Ganjar-Mahfud"
+      ],
+      "responses":[
+        "Gerak Cepat Menuju Indonesia Unggul"
+      ]
+    },
+    {
+      "tag": "visi_misi_ganjar_mahfud",
+      "patterns":[
+        "Apa saja visi misi Ganjar-Mahfud?"
+      ],
+      "responses":[
+        "Visi : Menuju Indonesia Unggul Gerak Cepat Mewujudkan Negara Maritim yang Adil dan Lestari. Misi : Gerak Cepat Ganjar Pranowo & Mahfud MD. 1. Mempercepat Pembangunan Manusia Indonesia Unggul yang Berkualitas, Produktif, dan Berkepribadian; 2. Mempercepat Penguasaan Sains dan Teknologi Melalui Percepatan Riset dan Inovasi (R & I) Berdikari; 3. Mempercepat Pembangunan Ekonomi Berdikari Berbasis Pengetahuan dan Nilai Tambah; 4. Mempercepat Pemerataan Pembangunan Ekonomi; 5. Mempercepat Pembangunan Sistem Digital Nasional; 6. Mempercepat Perwujudan Lingkungan Hidup yang Berkelanjutan Melalui Ekonomi Hijau dan Biru; 7. Mempercepat Pelaksanaan Demokrasi Substantif, Penghormatan HAM, Supremasi Hukum yang Berkeadilan dan Keamanan yang Profesional; 8. Mempercepat Peningkatan Peran Indonesia dalam Mewujudkan Tata Dunia Baru yang Lebih Berkeadilan Melalui Politik Luar Negeri Bebas Aktif dan Memperkuat Pertahanan Negara."
+      ]
+    },
+    {
+      "tag": "latar_belakang_ganjar",
+      "patterns":[
+        "Bagaimana latar belakang calon  presiden Ganjar Pranowo?"
+      ],
+      "responses":[
+        "Ganjar Pranowo lahir di Karanganyar, Jawa Tengah, pada tanggal 28 Oktober 1968. Ia merupakan putra dari Pranowo Sutawijaya, seorang pensiunan polisi, dan Siti Sulastri, seorang ibu rumah tangga. Ganjar Pranowo memiliki latar belakang pendidikan yang cukup baik. Ia menempuh pendidikan Sekolah Dasar di SDN 1 Kutoarjo, SMPN 1 Kutoarjo, dan SMA BOPKRI I Yogyakarta. Setelah itu, ia melanjutkan pendidikannya di Fakultas Hukum Universitas Gadjah Mada (UGM) dan lulus pada tahun 1996. Sejak duduk di bangku kuliah, Ganjar Pranowo aktif di kegiatan politik dan sosial. Ia bergabung dengan Gerakan Mahasiswa Nasional Indonesia (GMNI) dan menjadi Ketua Umum GMNI Cabang Yogyakarta pada tahun 1994-1995. Ganjar Pranowo mulai terjun ke dunia politik praktis pada tahun 2004, ketika ia terpilih sebagai anggota Dewan Perwakilan Rakyat (DPR) dari Partai Demokrasi Indonesia Perjuangan (PDI Perjuangan). Ia kemudian terpilih kembali menjadi anggota DPR pada tahun 2009 dan 2014. Pada tahun 2013, Ganjar Pranowo terpilih sebagai Gubernur Jawa Tengah. Ia menjabat sebagai gubernur hingga tahun 2023. Ganjar Pranowo merupakan salah satu calon presiden yang berpeluang besar untuk memenangkan pemilu presiden 2024. Ia memiliki latar belakang pendidikan dan pengalaman yang baik, serta didukung oleh popularitas yang tinggi di kalangan masyarakat."
+      ]
+    },
+    {
+      "tag": "prestasi_ganjar",
+      "patterns":[
+        "Apa saja prestasi Calon Presiden Ganjar Pranowo?"
+      ],
+      "responses":[
+        "1. Peningkatan Akses Pendidikan. Dimulai pada 2014, Ganjar membangun 18 sekolah gratis termasuk makan, seragam, dan alat tulis bernama SMKN Jateng bagi siswa dengan keterbatasan finansial. Tiga sekolah awal yang dibangun menerapkan sistem asrama, dan 15 sekolah tambahan lainnya masih menerapkan semi boarding atau belum sepenuhnya menerapkan sistem asrama. Ia juga menggratiskan SPP untuk SMA sederajat. Selain itu, Pemerintah Provinsi Jawa Tengah telah bekerja sama dengan Badan Nasional Penanggulangan Terorisme (BNPT) dan Badan Kesatuan Bangsa dan Politik (Kesbangpol) untuk mencegah penyebaran paham radikalisme dan terorisme di dalam sistem pendidikan. Ia juga telah membuka Pusat Pelayanan Cegah Terorisme yang dapat diakses untuk melaporkan potensi paham radikalisme; 2. Pemberdayaan Pertanian. Kartu Tani merupakan program nasional yang dikembangkan secara partisipatif, termasuk bersama dengan Pemprov Jawa Tengah yang menginisiasinya pada 2015 guna mengelola pemberian pupuk bersubsidi kepada petani serta pengumpulan data petani dan komoditas pertaniannya. Bekerja sama dengan Badan Riset dan Inovasi Nasional, data yang dikumpulkan diolah untuk meningkatkan produktivitas petani, memenuhi kebutuhan petani, dan memproyeksikan kebutuhan pangan; 3. Pembangunan Infrastruktur. Berdasarkan data BPS, selama Ganjar menjadi Gubernur Jawa Tengah (2013-2022), 1.477 km jalan baru telah dibangun di Jawa Tengah, termasuk jalan nasional, provinsi, dan kabupaten/kota (berkontribusi pada total 2.404 km jalan provinsi hari ini). Web resmi Pemprov Jawa Tengah lebih lanjut mencatat 6.724 kilometer jalan kabupaten/kota yang telah dibangun, rehabilitasi, atau ditingkatkan mutunya sejak 2013. Ia juga meluncurkan aplikasi ponsel Jalan Cantik sebagai sarana melaporkan kerusakan jalan dan menjanjikan tindak lanjut dalam 24 jam. Sejak dirilis pada 2019 hingga 2023, aplikasi ini telah menyelesaikan 3.782 laporan. Selain itu, terdapat tiga bandar udara baru yang dikembangkan, yaitu terminal baru Bandara Jenderal Ahmad Yani di Semarang, Bandara Jenderal Besar Sudirman di Purbalingga, dan Bandara Ngloram di Cepu. Pada 2019, 2020, dan 2023, Jawa Tengah dinobatkan sebagai provinsi terbaik pertama dalam Penghargaan Pembangunan Daerah oleh Kementerian Perencanaan Pembangunan Nasional."
+      ]
+    },
+    {
+      "tag": "latar_belakang_mahfud",
+      "patterns":[
+        "Bagaimana latar belakang Calon Wakil Presiden Mahfud MD?"
+      ],
+      "responses":[
+        "Mohammad Mahfud Mahmodin, yang lebih dikenal dengan nama Mahfud MD, lahir di Sampang, Jawa Timur, pada tanggal 13 Mei 1957. Ia merupakan putra dari pasangan Mahmodin dan Siti Khadijah. Ayahnya bekerja sebagai pegawai negeri sipil di daerah Omben, Sampang. Pada saat menginjak usia dua bulan, keluarganya bermigrasi ke Waru, Pamekasan. Mahfud MD mengenyam pendidikan dasarnya di sekolah dasar negeri dan juga mengikuti pendidikan keagamaan di madrasah ibtidaiyah milik Pondok Pesantren Al-Mardhiyyah. Setelahnya, ia dipindahkan ke Pondok Pesantren Somber Lagah pimpinan Kyai Mardhiyyan di Tagangser Laok. Saat itu, Mahfud duduk di bangku kelas lima sekolah dasar. Setelah lulus dari sekolah dasar, Mahfud MD melanjutkan pendidikannya di Pondok Pesantren Zainul Hasan Genggong, Probolinggo. Ia menempuh pendidikan selama enam tahun di pesantren tersebut dan lulus pada tahun 1980. Setelah lulus dari pesantren, Mahfud MD melanjutkan pendidikannya di Fakultas Hukum Universitas Islam Indonesia (UII) Yogyakarta. Ia lulus dengan gelar sarjana hukum pada tahun 1984. Setelah lulus dari UII, Mahfud MD menjadi dosen di Fakultas Hukum UII. Ia juga aktif di berbagai organisasi profesi, seperti Ikatan Hakim Indonesia (IKAHI) dan Mahkamah Konstitusi (MK). Pada tahun 2001, Mahfud MD diangkat menjadi Menteri Kehakiman dan Hak Asasi Manusia oleh Presiden Abdurrahman Wahid. Ia menjabat sebagai menteri hingga tahun 2003. Pada tahun 2003, Mahfud MD diangkat menjadi Ketua Mahkamah Konstitusi (MK). Ia menjabat sebagai ketua MK hingga tahun 2013. Pada tahun 2023, Mahfud MD ditunjuk sebagai Menteri Koordinator Bidang Politik, Hukum, dan Keamanan (Menko Polhukam) oleh Presiden Joko Widodo. Ia menjabat sebagai menko hingga tahun 2024. Mahfud MD dikenal sebagai sosok yang tegas, berintegritas, dan memiliki pemahaman yang mendalam tentang hukum. Ia juga dikenal sebagai sosok yang aktif dan bersemangat dalam membela hak asasi manusia."
+      ]
+    },
+    {
+      "tag": "jadwal_kampanye_pemilu",
+      "patterns":[
+        "Kapan diselenggarakannya kampanye pemilu?"
+      ],
+      "responses":[
+        "Kampanye dimulai pada tanggal 28 November 2023 dan berakhir pada 14 Februari 2024, yang mana kampanye berlangsung selama 75 hari"
+      ]
+    },
+    {
+      "tag": "jadwal_pemungutan_suara",
+      "patterns":[
+        "Kapan pemungutan suara dilaksanakan?"
+      ],
+      "responses":[
+        "Pemungutan suara akan dilaksanakan pada Rabu, 14 Februari 2024"
+      ]
+    },
+    {
+      "tag": "jadwal_perencanaan_program_dan_anggaran",
+      "patterns":[
+        "Kapan perencanaan program dan anggaran dilaksanakan?"
+      ],
+      "responses":[
+        "Perencanaan Program dan Anggaran dilaksanakan dari tanggal 14 Juni 2022-14 Juni 2024"
+      ]
+    },
+    {
+      "tag": "jadwal_penyusunan_peraturan_KPU",
+      "patterns":[
+        "Kapan jadwal Penyusunan Peraturan KPU?"
+      ],
+      "responses":[
+        "Penyusunan Peraturan KPU dimulai dari tanggal 14 Juni 2022-14 Desember 2023"
+      ]
+    },
+    {
+      "tag": "jadwal_penyusunan_daftar_pemilih",
+      "patterns":[
+        "Kapan jadwal penyusunan daftar pemilih?"
+      ],
+      "responses":[
+        "Pemutakhiran Data Pemilih dan Penyusunan Daftar Pemilih dimulai dari tanggal 14 Oktober 2022-21 Juni 2023"
+      ]
+    },
+    {
+      "tag": "jadwal_pendaftaran_dan_verifikasi_peserta_pemilu",
+      "patterns":[
+        "Kapan jadwal pendaftaran dan verifikasi peserta pemilu?"
+      ],
+      "responses":[
+        "Pendaftaran dan Verifikasi Peserta Pemilu dimulai dari tanggal 29 Juli 2022-13 Desember 2022"
+      ]
+    },
+    {
+      "tag": "jadwal_penetapan_peserta_pemilu",
+      "patterns":[
+        "Kapan ditetapkannya peserta pemilu?"
+      ],
+      "responses":[
+        "Penetapan Peserta Pemilu dari tanggal 14 Desember 2022-14 Februari 2022"
+      ]
+    },
+    {
+      "tag": "jadwal_penetapan_jumlah_dan_daerah_pemilihan",
+      "patterns":[
+        "Kapan ditetapkannya jumlah dan daerah pemilihan?"
+      ],
+      "responses":[
+        "Penetapan jumlah kursi dan penetapan daerah pemilihan dari tanggal 14 Oktober 2022-9 Februari 2023"
+      ]
+    },
+    {
+      "tag": "jadwal_pencalonan_presiden_dan_wakil_presiden",
+      "patterns":[
+        "Kapan dilaksanakannya pencalonan Presiden dan Wakil Presiden?"
+      ],
+      "responses":[
+        "Pencalonan Presiden dan Wakil Presiden dilakukan dari tanggal 19 Oktober 2023-25 November 2023"
+      ]
+    },
+    {
+      "tag": "masa_tenang_pilpres",
+      "patterns":[
+        "Apakah ada masa tenang dalam jadwal PilPres?"
+      ],
+      "responses":[
+        "Ada, yaitu pada tanggal 11 Februari 2024-13 Februari 2024"
+      ]
+    },
+    {
+      "tag": "jadwal_pemungutan_dan_perhitungan_suara",
+      "patterns":[
+        "Kapan jadwal pemungutan dan penghitungan suara?"
+      ],
+      "responses":[
+        "Jadwal pemungutan dan penghitungan suara dimulai dari tanggal 14 Februari 2024-15 Februari 2024, yaitu satu hari."
+      ]
+    },
+    {
+      "tag": "jadwal_rekapitulasi_perhitungan_suara",
+      "patterns":[
+        "Kapan dilaksanakannya rekapitulasi perhitungan suara?"
+      ],
+      "responses":[
+        "Rekapitulasi hasil perhitungan suara dilaksanakan dari tanggal 5 Februari 2024-20 Maret 2024"
+      ]
+    },
+    {
+      "tag": "jadwal_pengucapan_sumpah_presiden_dan_wakil_presiden",
+      "patterns":[
+        "Kapan pengucapan sumpah Presiden dan Wakil Presiden terpilih?"
+      ],
+      "responses":[
+        "Pengucapan Sumpah/Janji Presiden dan Wakil Presiden dilaksanakan pada tanggal 20 Oktober 2024"
+      ]
+    },
+    {
+      "tag": "jadwal_debat",
+      "patterns":[
+        "Kapan jadwal debat Capres dan Cawapres?"
+      ],
+      "responses":[
+        "Berdasarkan data dari Komisi Pemilihan Umum (KPU), debat Capres dan Cawapre akan dilaksanakan pada: Debat pertama 12 Desember 2023, Debat kedua 22 Desember 2023, Debat ketiga 7 Januari 2024, Debat keempat 14 Januari 2024, Debat kelima 4 Februari 2024."
+      ]
+    },
+    {
+      "tag": "lokasi_debat",
+      "patterns":[
+        "Dimana debat Capres dan Cawapres akan dilaksanakan?"
+      ],
+      "responses":[
+        "Komisi Pemilihan Umum (KPU) menyatakan bahwa kelima debat akan dilakukan di Jakarta"
+      ]
+    },
+    {
+      "tag": "estimasi_debat",
+      "patterns":[
+        "Berapa lama debat Capres dan Cawapres dilaksanakan?"
+      ],
+      "responses":[
+        "Debat akan dilakukan selama 150 menit total. Dengan 120 menit untuk debat dan 30 menit iklan."
+      ]
+    },
+    {
+      "tag": "alur_debat",
+      "patterns":[
+        "Bagaimana alur debat Capres dan Cawapres dilaksanakan?"
+      ],
+      "responses":[
+        "Segmen pertama adalah pembukaan, pembacaan tata tertib dan penyampaian visi, misi, dan program kerja. Segmen kedua berupa pendalaman visi, misi, dan program kerja. Segmen ketiga mencakup pendalaman visi, misi, dan program kerja oleh Moderator. Segmen keempat dan kelima berisi tanya jawab dan sanggahan. Terakhir, penutup."
+      ]
+    },
+    {
+      "tag": "tema_debat",
+      "patterns":[
+        "Apa tema debat Capres dan Cawapres?"
+      ],
+      "responses":[
+        "Tema yang akan didebatkan merujuk pada visi nasional sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan mempedomani Rencana Pembangunan Jangka Panjang Nasional (RPJPN)."
+      ]
+    },
+    {
+      "tag": "aturan_debat",
+      "patterns":[
+        "Apa saja aturan debat Capres dan Cawapres?"
+      ],
+      "responses":[
+        "Berdasarkan Peraturan KPU No. 15 tahun 2023 Pasal 50 Ayat (1), debat dilakukan dengan rincian 3 kali untuk calon presiden dan 2 kali untuk calon wakil presiden. Masih bisa diubah KPU atas koordinasi dengan DPR. Calon presiden dan wakil presiden tidak boleh diwakili orang lain dalam gelaran debat. Apabila berhalangan, harus dibuktikan dengan keterangan pihak terkait dan disampaikan ke KPU maksimal 3 hari sebelum debat dihelat. Jika berhalangan karena ada urusan ibadah, maka harus ada surat dari Kementerian Agama. Jika berhalangan karena alasan kesehatan, maka harus ada surat keterangan dari dokter rumah sakit."
+      ]
+    },
+    {
+      "tag": "jumlah_pemilih_terdaftar",
+      "patterns":[
+        "Berapa jumlah pemilih terdaftar?"
+      ],
+      "responses":[
+        "Komisi Pemilihan Umum (KPU) menetapkan Daftar Pemilih Tetap (DPT) Pemilu 2024 sebanyak 204.807.222 pemilih."
+      ]
+    },
+    {
+      "tag": "perbandingan_jumlah_pemilih_berdasarkan_jenis_kelamin",
+      "patterns":[
+        "Berapa perbandingan jumlah pemilih terdaftar berdasarkan jenis kelamin?"
+      ],
+      "responses":[
+        "Daftar Pemilih Tetap (DPT) terdiri dari 102.218.503 pemilih laki-laki dan 102.588.719 pemilih perempuan."
+      ]
+    },
+    {
+      "tag": "perbandingan_jumlah_pemilih_pergenerasi",
+      "patterns":[
+        "Berapa perbandingan Daftar Pemilih Tetap (DPT) per generasi?"
+      ],
+      "responses":[
+        "DPT Pemilu 2024 naik sekitar 12 juta dibandingkan dengan pemilih di Pemilu 2019. Pemilih dari kelompok generasi milenial dan generasi Z berjumlah lebih dari 113 juta pemilih. Kedua generasi ini mendominasi pemilih Pemilu 2024, yakni sebanyak 56,45% dari total keseluruhan pemilih."
+      ]
+    },
+    {
+      "tag": "koalisi_parpol_anies_imin",
+      "patterns":[
+        "Apa saja koalisi partai politik yang mendukung Anies Baswedan-Muhaimin Iskandar pada Pilpres 2024?"
+      ],
+      "responses":[
+        "Partai Nasdem \n Partai Demokrat \n Partai Keadilan Sejahtera (PKS) \n Partai Ummat \n Partai Masyumi"
+      ]
+    },
+    {
+      "tag": "koalisi_parpol_prabowo_gibran",
+      "patterns":[
+        "Apa saja koalisi partai politik yang mendukung Prabowo Subianto-Gibran Rakabuming Raka pada Pilpres 2024?"
+      ],
+      "responses":[
+        "Partai Gerakan Indonesia Raya (Gerindra) \n Partai Golongan Karya (Golkar) \n Partai Amanat Nasional (PAN) \n Partai Demokrat \n Partai Bulan Bintang (PBB) \n Partai Gelombang Rakyat (Gelora) \n Partai Garda Republik Indonesia (Garuda) \n Partai Prima \n Partai Solidaritas Indonesia (PSI)."
+      ]
+    },
+    {
+      "tag": "koalisi_parpol_ganjar_mahfud",
+      "patterns":[
+        "Apa saja koalisi partai politik yang mendukung Ganjar Pranowo-Mahfud MD pada Pilpres 2024?"
+      ],
+      "responses":[
+        "Partai Demokrasi Indonesia Perjuangan (PDIP) \n Partai Persatuan Pembangunan (PPP) \n Partai Persatuan Indonesia (Perindo) \n Partai Hati Nurani Rakyat (Hanura)."
+      ]
+    },
+    {
+      "tag": "kontroversi_anies",
+      "patterns":[
+        "Apa saja kontroversi Calon Presiden Anies Baswedan?"
+      ],
+      "responses":[
+        "1. Politik Identitas. \n Fenomena politik dalam Pilkada DKI Jakarta tahun 2017 dan stigma isu politik identitas seringkali melekat dengan citra Anies Baswedan. Pengamat politik Universitas Indonesia, Reni Suwarso menilai kemenangan Anies dikarenakan menggunakan politik identitas agama (yang kemudian juga berkorelasi dengan ras, termasuk ketika Anies menggunakan istilah 'pribumi' pada pidato kemenangannya) untuk mengambil suara dari pengaruh kelompok militan. \n Sebaliknya, Mardani selaku ketua tim pemenangan Anies tidak setuju jika Aksi 212 dikaitkan dengan pekerjaan atau koordinasi dari tim pemenangan. Tetapi Mardani mengaku memanfaatkan momentum tersebut dengan bertemu Habib Rizieq selaku salah satu komando Aksi 212. \n 2. Janji Kampanye Atasi Banjir Jakarta. \n Banyak pihak yang menyatakan bahwa janji Anies untuk mengatasi banjir Jakarta tidak sesuai dengan fakta di lapangan dan tidak sepenuhnya terealisasikan. Saat kampanye Pilgub tahun 2017, Anies menargetkan untuk membangun 1,8 juta titik sumur resapan di perumahan warga untuk memasukan air hujan ke tanah. \n Nyatanya, Manajer kampanye Iklim dan Energi Greenpeace Indonesia Hindun Mulaika menyampaikan bahwa pembangunan sumur resapan belum bisa dibuktikan karena hingga saat ini wacana tersebut belum tercapai. Ditambah lagi, Anies juga pernah menjanjikan dan menjamin banjir Jakarta bisa dikendalikan dalam waktu 6 jam. Namun, pada 2021, pemukiman di kawasan Kebon Pala telah terendam banjir selama tiga hari. \n 3. Pembangunan Hunian Layak (Program Rumah DP 0). \n Sesuai janji kampanye dan program unggulan Anies dalam Pilkada DKI tahun 2017 lalu, Anies meluncurkan program bertajuk JakHabitat yang ditujukan untuk masyarakat berpenghasilan rendah. \n Awalnya, program ini memang tampak menarik karena menawarkan kemudahan. Namun, program ini ternyata tidak berjalan sesuai dengan ekspektasi awal, mulai dari revisi penerapan batas penghasilan maksimal peserta (dari Rp 7 jt per bulan, menjadi Rp 14.8 jt per bulan) hingga minimnya peminat.  Sekretaris Fraksi PKS, Muhammad Taufik Zoelkitfli menilai realisasi program rumah DP 0 yang merupakan unggulan program masa kampanye tidak sesuai harapan."
+      ]
+    },
+    {
+      "tag": "kontroversi_prabowo",
+      "patterns":[
+        "Apa saja kontroversi Calon Presiden Prabowo Subianto?"
+      ],
+      "responses":[
+        "1. Kasus Penculikan Aktivis Peristiwa Mei, 1998. \n Pada tahun 2005, Komnas HAM RI menyimpulkan Prabowo sebagai pemberi perintah Tim Mawar untuk menculik 23 aktivis pro-demokrasi di Peristiwa Kerusuhan Mei 1998. Prabowo menyatakan bahwa semua aktivis tersebut telah dibebaskan, walau hingga saat ini masih ada 13 lainya dengan status hilang sampai sekarang. \n Pada saat itu, Prabowo menjabat sebagai Panglima Komando Cadangan Strategis Angkatan Darat (Pangkostrad) namun diberhentikan karena alasan pelanggaran kedisiplinan hukum ABRI dan pengabaian sistem operasi yang sempat memasukkannya ke daftar hitam Amerika Serikat. \n 2. Polemik Gagalnya Food Estate. \n Proyek Food Estate yang tersebar di Sumatera, Kalimantan, Papua dan NTT adalah respon pemerintah terhadap krisis pangan global. Program yang dipimpin Prabowo ini dianggap gagal oleh beberapa pihak karena telah melakukan cetak lahan pertanian seluas 17,000 ha sawah dan 600 ha perkebunan singkong namun tidak ada produksi sama sekali. Penentuan kebijakan pun lebih dipertanyakan karena 70-80% tanah Indonesia memiliki tingkat kesuburan yang rendah, alhasil berpotensi meningkatkan deforestasi dengan resiko gagal yang tinggi. \n Hal ini menuai kritik dari Sekjen PDI-P Hasto Kristiyanto yang mendorong penyelidikan terhadap penggunaan dana sebesar Rp 1 Triliun dan penunjukan PT Agro Industri Nasional sebagai kontraktor pemerintah dalam proyek tersebut, yang dimiliki kalangan dan pendukung Prabowo. Pakar lingkungan IPB mengatakan bahwa sistem pangan yang tak berbasis masyarakat ini menjadi pusat permasalahan. \n 3. Sikap Terhadap Konflik Rusia-Ukraina. \n Pada Juni 2023 dalam acara Shangri-La Dialogue di Singapura, Prabowo mengusulkan genjatan senjata, pembentukan zona demiliterisasi, dan referendum untuk menyelesaikan konflik Rusia dan Ukraina. Menurutnya, hal ini terbukti efektif dari sejarah konflik dunia termasuk Asia dan Afrika dalam meminimalisir tumpah darah dan dampak terhadap ekonomi global. \n Beberapa pihak internasional melihat pernyataanya sebagai kontroversial karena menyerupai proposal Tiongkok terhadap isu tersebut yang ditolak mentah-mentah oleh negara barat dan sekutunya. Bahkan, Menteri Pertahanan Ukraina yang hadir di acara yang sama, secara lantang menolak dan bilang ‘itu terdengar seperti rencana Rusia, bukan Indonesia’. Tak jauh dari kritik dalam negeri, Anggota Komisi 1 DPR RI, TB Hasanuddin nilai usulan Prabowo kurang baik dan menunjukan kurangnya pengetahuan kondisi lapangan di konflik itu."
+      ]
+    },
+    {
+      "tag": "kontroversi_ganjar",
+      "patterns":[
+        "Apa saja kontroversi Calon Presiden Ganjar Pranowo?"
+      ],
+      "responses":[
+        "1. Konflik Agraria: Wadas dan Rembang. \n Pemerintahan Ganjar Pranowo di Jawa Tengah terbabit dua kasus pembukaan pertambangan kontroversial di dua wilayah yang berbeda. Pada 2016, setelah digugat warga, Mahkamah Agung mencabut keputusan gubernur yang memberi izin lingkungan untuk kegiatan penambangan PT Semen Indonesia di Rembang. Warga setempat khawatir keberadaan pabrik ini mengancam Cekungan Air Tanah Watuputih yang menjadi sumber air daerah tersebut. \n Peneliti geologi berpendapat bahwa penambangan berpotensi menurunkan kualitas dan kuantitas air tanah serta merusak ekosistem dan ornamen gua. Tambang ini kini beroperasi penuh. Pada tahun 2022, warga Desa Wadas diintimidasi dan ditangkap oleh aparat penegak hukum karena menolak mengalihkan kepemilikan tanahnya kepada pemerintah untuk pertambangan andesit yang akan dimanfaatkan untuk pembangunan Bendungan Bener. \n Desakan pun disasarkan kepada Ganjar untuk mencabut izin pertambangan. Greenpeace menilai bahwa pembukaan tambang quarry (dikeruk tanpa sisa) salah satunya dengan peledakan ribuan ton dinamit akan merusak lingkungan sehingga rawan longsor. \n 2. Penolakan Tim Sepak Bola Israel pada Piala Dunia U-20. \n Dua bulan sebelum Piala Dunia U-20 direncanakan digelar di Indonesia termasuk Jawa Tengah, Ganjar membuat pernyataan menolak timnas Israel hadir pada pertandingan tersebut. Pernyataan ini senada dengan Gubernur Bali I Wayan Koster yang merupakan kader dari partai yang sama, PDI-P. \n Ganjar beralasan sikapnya berdasarkan dukungan untuk kemerdekaan Palestina sesuai dengan amanat Presiden Soekarno, serta menjadi bukti loyalitasnya kepada partai. Pada 29 Maret 2023, FIFA mencabut lisensi Indonesia untuk menyelenggarakan acara ini dan membekukan dana alokasi untuk PSSI. Kemarahan masyarakat ditujukan kepada Ganjar terutama melalui media sosial, termasuk oleh pemain timnas Indonesia yang gagal berlaga pada kesempatan yang langka ini.  \n Menurut Menteri Pariwisata dan Ekonomi Kreatif Sandiaga Uno kala itu, kerugian yang ditimbulkan akibat gagalnya acara U-20 mencapai minimal Rp3,7 triliun dengan dampak besar kepada pelaku UMKM sektor ekonomi kreatif khususnya penyedia cendera mata. Negara pun telah menghabiskan triliunan rupiah untuk persiapan termasuk renovasi sejumlah stadion. Setelah pembatalan, Ganjar mengaku tidak menyesal dengan sikapnya. 3. Janji Tangani Angka Kemiskinan. Ganjar berjanji saat berkampanye pada 2018 bahwa akan menekan angka kemiskinan ke kisaran 6,48% sampai 7,48%. Sayangnya, angka kemiskinan pada 2023 Jawa Tengah tercatat di 10,77% dengan 3,79 juta orang hidup di bawah garis kemiskinan. Walaupun berkurang secara persentase, jumlah orang menganggur di Jawa Tengah juga mengalami peningkatan selama pemerintahannya. Pada 2013, jumlahnya sekitar 914 ribu orang (5,53%) dibanding 1,1 juta orang (5,24%) pada Februari 2023. Hal ini pun meleset dari target 4% yang dijanjikan Ganjar."
+      ]
+    },
+    {
+      "tag": "jadwal_lengkap_pilpres",
+      "patterns":[
+        "Tampilkan jadwal lengkap PilPres"
+      ],
+      "responses":[
+        "14 Juni 2022 - 14 Juni 2024  : Perencanaan Program dan Anggaran \n 14 Juni 2022 - 14 Desember 2023 : Penyusunan Peraturan KPU \n 14 Oktober 2022 - 21 Juni 2023 : Pemutakhiran data Pemilih dan penyusunan daftar Pemilih \n 29 Juli 2022 - 13 Desember 2022 : Pendaftaran dan Verifikasi Peserta Pemilu \n 14 Desember 2022 - 14 Februari 2022 : Penetapan Peserta Pemilu \n 14 Oktober 2022 - 9 Februari 2023 : Penetapan jumlah kursi dan penetapan daerah pemilihan \n 19 Oktober 2023 - 25 November 2023 : Pencalonan Presiden dan Wakil Presiden \n 28 November 2023 - 10 Februari 2024 : masa Kampanye Pemilu \n 11 Februari 2024 - 13 Februari 2024 : Masa Tenang \n 14 Februari 2024 - 15 Februari 2024 : Pemungutan dan Penghitungan Suara \n 15 Februari 2024 - 20 Maret 2024 : Rekapitulasi Hasil Perhitungan Suara \n 20 Oktober 2024 : Pengucapan Sumpah/Janji Presiden dan Wakil Presiden"
+      ]
+    },
+    {
+      "tag": "syarat_pemilih",
+      "patterns":[
+        "Apa saja syarat untuk menjadi pemilih dalam pemilu?"
+      ],
+      "responses":[
+        "Di dalam PKPU No. 7 Tahun 2022, syarat menjadi pemilih dalam Pemilu adalah: \n 1. Genap berumur 17 (tujuh belas) tahun atau lebih pada hari pemungutan suara, sudah kawin, atau sudah pernah kawin. \n 2. Tidak sedang dicabut hak pilihnya berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap.  \n 3. Berdomisili di wilayah Negara Kesatuan Republik Indonesia dibuktikan dengan KTP-el. \n 4. Berdomisili di luar negeri yang dibuktikan dengan KTP-el, Paspor dan/atau Surat Perjalanan Laksana Paspor. \n 5. Dalam hal Pemilih belum mempunyai KTP-el sebagaimana dimaksud dalam huruf c dan huruf d, dapat menggunakan Kartu Keluarga; dan  \n 6. Tidak sedang menjadi prajurit Tentara Nasional Indonesia atau anggota Kepolisian Negara Republik Indonesia."
+      ]
+    },
+    {
+      "tag": "harta_anies",
+      "patterns":[
+        "Apa saja aset Calon Presiden Anies Baswedan?"
+      ],
+      "responses":[
+        "Menurut LHKPN, berdasarkan data terkini yang tersedia untuk umum, dalam Rupiah: \n Jumlah Aset: ± 18,7 Miliar \n Jumlah Hutang: ± 7,55 Miliar \n Kekayaan Bersih: ± 11,2 Miliar"
+      ]
+    },
+    {
+      "tag": "harta_prabowo",
+      "patterns":[
+        "Apa saja aset Calon Presiden Prabowo Subianto?"
+      ],
+      "responses":[
+        "Menurut LHKPN, berdasarkan data terkini yang tersedia untuk umum, dalam Rupiah: \n Jumlah Aset: ± 2,04 Triliun \n Jumlah Hutang: ± 8 Miliar \n Kekayaan Bersih: ± 2,03 Triliun"        
+      ]
+    },
+    {
+      "tag": "harta_ganjar",
+      "patterns":[
+        "Apa saja aset Calon Presiden Ganjar Pranowo?"
+      ],
+      "responses":[
+        "Menurut LHKPN, berdasarkan data terkini yang tersedia untuk umum, dalam Rupiah: \n Jumlah Aset: ± 15,4 Miliar \n Jumlah Hutang: - \n Kekayaan Bersih: ± 15,4 Miliar"
+      ]
+    }
+  ]
+}
